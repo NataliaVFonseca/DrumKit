@@ -1,23 +1,85 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-image:url("images/fundo4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  font-size: 4rem;
+  color: #11cedb;
+  font-family: "'Comic Sans'", cursive;
+  text-shadow: 3px 0 #f0eeee;
 
 }
 
 footer {
-  color: #DBEDF3;
+  color: #969c9e;
   font-family: sans-serif;
+  margin-top: 80px;
+}
+.musicalInstruments {
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+.bateria {
+  margin-top: 30%;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(36, 38, 41);
+  font-family: 'Comic Sans', cursive;
+  color: aliceblue;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+.piano
+{
+  margin-top: 30%;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(36, 38, 41);
+  font-family: 'Comic Sans', cursive;
+  color: aliceblue;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+.guitar
+{
+  margin-top: 30%;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(36, 38, 41);
+  font-family: 'Comic Sans', cursive;
+  color: rgb(240, 248, 255);
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+.flute
+{
+  margin-top: 30%;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(42, 44, 48);
+  font-family: 'Comic Sans', cursive;
+  color: aliceblue;
+  font-size: 1.3rem;
+  border-radius: 10px;
+
 }
 
 .w {
   background-image: url("images/tom1.png");
+  
 }
 
 .a {
@@ -44,12 +106,15 @@ footer {
   background-image: url("images/kick.png");
 }
 
-.set {
-  margin: 10% auto;
+.drumSet1 {
+  margin-top: 8% ;
 }
 
+.drumSet2 {
+  margin-top: 1% ;
+}
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 1px 1px 0 #DBEDF3;
   opacity: 0.5;
 }
 
@@ -59,18 +124,22 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
+  border: 3px solid #fafafa;
+  font-size: 3rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #42a9e6;
+  text-shadow: 3px 0 #087aec;
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   text-align: center;
   margin: 10px;
   background-color: white;
-}
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(90%);
+  }
+ 
+
