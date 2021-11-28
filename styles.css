@@ -1,3 +1,4 @@
+
 body {
   text-align: center;
   background-image:url("images/fundo4.jpg");
@@ -12,6 +13,8 @@ h1 {
   text-shadow: 3px 0 #f0eeee;
 
 }
+
+/* Index */
 
 footer {
   color: #969c9e;
@@ -76,7 +79,7 @@ footer {
   border-radius: 10px;
 
 }
-
+/* Index.Drum */
 .w {
   background-image: url("images/tom1.png");
   
@@ -142,4 +145,4 @@ footer {
   filter: grayscale(90%);
   }
  
-
+/* Indexflute */
